@@ -22,6 +22,39 @@ body {
 
 
 
+/* A LINKS */
+.menu-link a, .menu-link a:visited {
+	color: black;
+	text-decoration: none;
+	overflow: hidden;
+	position: relative;
+}
+
+.menu-link a:after {
+	content: '';
+	position: absolute;
+	background: white;
+	height: 2px;
+	width: 0%;
+	transition: .15s ease;
+	transform: translateX(-50%);
+	bottom: 0;
+	left: 50%;
+	opacity: 0;
+}
+
+.menu-link a:hover {
+	color: orange;
+	transition: .15s ease;
+}
+
+.menu-link a:hover:after, .menu-link a:focus:after, .menu-link a:active:after {
+	width: 100%;
+	opacity: 1;
+}
+
+
+
 /* CUSTOM NAVBAR */
 .navbar-center {
 	display: table;
