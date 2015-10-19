@@ -1,3 +1,4 @@
+/* UTILITY STYLES */
 body {
 	background-image: url("../img/splash-sunset.JPG");
 	background-size: cover;
@@ -8,6 +9,12 @@ body {
 	margin: 0px;
 }
 
+.container {
+	background-color: lightblue;
+}
+
+
+
 /* IMAGES */
 .logo-img {
 	height: 120px;
@@ -16,6 +23,11 @@ body {
 
 
 /* CUSTOM NAVBAR */
+.navbar-center {
+	display: table;
+	width: 100%;
+}
+
 .navbar-custom {
 	background: red;
     width: 700px;
@@ -36,14 +48,31 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-center {
-	display: table;
-	width: 100%;
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+	.navbar-custom {
+		display: none;
+	}
 }
 
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 1200px) {
+	.logo-li {
+		display: none !important;
+	}
+	.logo-img-med {
+		margin-bottom: 15px;
+	}
+}
 
-
-
-.container {
-	background-color: lightblue;
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.logo-img-med {
+		display: none;
+	}
 }
