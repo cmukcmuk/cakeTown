@@ -1,0 +1,49 @@
+
+
+
+
+/* IMAGES */
+.logo-img {
+	height: 100px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+	/* NAVBAR */
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-brand {
+		display: none;
+	}
+	.navbarFix li a {
+		height: 130px;
+		vertical-align: middle;
+		display: table-cell;
+	}
+	.navbarFix img {
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-toggle {
+		float: left;
+		margin-right: 0px;
+		margin-left: 15px;
+	}
+	li.navbar-menu-brand {
+		display: none;
+	}
+	button {
+		float: left;
+		clear: left;
+	}
+}
