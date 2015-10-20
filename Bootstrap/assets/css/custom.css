@@ -19,6 +19,19 @@ body {
 .logo-img {
 	height: 120px;
 }
+.logo-sml {
+	height: 25px;
+}
+.logo-sml-container {
+	text-align: center; 
+	display: table; 
+	top: 5%; 
+	position: fixed; 
+	left: 50%; 
+	transform: translateX(-50%); 
+	z-index: 100;
+	visibility: hidden;
+}
 
 
 
@@ -183,6 +196,9 @@ body {
 		display: none;
 	}
 	.menu-button {
+		visibility: visible;
+	}
+	.logo-sml-container {
 		visibility: visible;
 	}
 }
