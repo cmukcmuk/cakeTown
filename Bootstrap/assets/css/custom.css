@@ -3,44 +3,10 @@ body, html {
   height: 100%;
   width: 100%;
 }
-
 header {
 	background-image: url("../img/splash-sunset.JPG");
 	background-size: cover;
-	height: 100%;
 }
-
-#hero {
-	height: 100%;
-	width: 100%;
-	background-color: yellow;
-}
-
-.hero-div {
-	background-color: pink;
-	height: 100%;
-}
-
-
-
-
-/**/
-.test-container {
-  display: table;
-  width: 100%;
-  height: 100%;
-}
-.test {
-  display: table-cell;
-  vertical-align: middle;
-  background-color: red;
-  height: 100%;
-  text-align: center;
-}
-/**/
-
-
-
 .container {
 	background-color: lightblue;
 }
@@ -50,6 +16,7 @@ header {
 .hide {
 	visibility: hidden;
 }
+
 
 
 /* IMAGES */
@@ -79,7 +46,6 @@ header {
 	overflow: hidden;
 	position: relative;
 }
-
 .menu-link a:after {
 	content: '';
 	position: absolute;
@@ -92,12 +58,10 @@ header {
 	left: 50%;
 	opacity: 0;
 }
-
 .menu-link a:hover {
 	color: orange;
 	transition: .35s ease;
 }
-
 .menu-link a:hover:after, .menu-link a:focus:after, .menu-link a:active:after {
 	width: 100%;
 	opacity: 1;
@@ -110,7 +74,6 @@ header {
 	display: table;
 	width: 100%;
 }
-
 .navbar-custom {
 	background: red;
     width: 700px;
@@ -118,7 +81,6 @@ header {
     vertical-align: middle;
     text-align: center;
 }
-
 .navbar-custom ul {
     text-align: center;
     padding: 0;
