@@ -15,10 +15,10 @@ $(function () {
 
         };
 
+        windowHeight();
+
         $(window).resize(function() {
             windowHeight();
         });
-
-        windowHeight();
 
 });
