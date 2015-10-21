@@ -3,16 +3,16 @@ body {
 	background-image: url("../img/splash-sunset.JPG");
 	background-size: cover;
 }
-
-.noPad {
-	padding: 0px;
-	margin: 0px;
+header {
+	background-color: yellow;
 }
 
 .container {
 	background-color: lightblue;
 }
-
+.center {
+	text-align: center;
+}
 
 
 /* IMAGES */
