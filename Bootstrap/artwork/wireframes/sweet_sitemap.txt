@@ -12,3 +12,15 @@
 -contact
 -subscribe to mailing list / instagram [aside]
 -testimonials
+
+order process
+
+select product -> add to cart -> show cart -> checkout -> contact details -> billing info -> confirmation -> success note
+
+design checkout
+design desktop
+design desktop checkout
+design tablet
+design tablet checkout
+
+install wordpress and woocommerce. figure out how i’m going to get jules’s thing to work.
