@@ -23,4 +23,6 @@ design desktop checkout
 design tablet
 design tablet checkout
 
+update wireframes for 960 grid system.
+
 install wordpress and woocommerce. figure out how i’m going to get jules’s thing to work.
