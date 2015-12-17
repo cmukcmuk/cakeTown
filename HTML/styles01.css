@@ -24,6 +24,10 @@ body, html {
 	background-color: tomato;
 }
 
+.hidden {
+	display: none;
+}
+
 
 .flex-container {
 	padding: 0;
@@ -45,6 +49,25 @@ body, html {
 	font-size: 3em;
 	text-align: center;
 }
-.logo {
+.logo1 {
 	align-self: flex-start;
+}
+
+
+.navbar {
+	height: 10%;
+	display: flex;
+	min-height: 50px;
+	width: 100%;
+	background-color: lightblue;
+	justify-content: space-between;
+	align-items: center;
+}
+.splash {
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: tomato;
 }
