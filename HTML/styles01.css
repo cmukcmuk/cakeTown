@@ -71,3 +71,10 @@ body, html {
 	width: 100%;
 	background-color: tomato;
 }
+
+.logo {
+	background-color: lightgreen;
+}
+.navlinks {
+	background-color: lightyellow;
+}
