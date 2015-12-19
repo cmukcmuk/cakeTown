@@ -78,3 +78,40 @@ body, html {
 .navlinks {
 	background-color: lightyellow;
 }
+.navlinks ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-content: center;
+}
+
+
+
+@media all and (max-width: 600px) {
+			.navlinks {
+				display: none;
+			}
+			.navlinks ul {
+				flex-flow: column wrap;
+				padding: 0;
+			}
+			.navlinks ul a {
+				text-align: center;
+				padding: 10px;
+				border-top: 1px solid rgba(255, 255, 255, 0.3);
+				border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			}
+			.navlinks ul li:last-of-type a {
+				border-bottom: none;
+			}
+			.navbar {
+				flex-flow: column wrap;
+				height: auto;
+				min-height: 10%;
+				justify-content: center;
+				align-items: center;
+			}
+		}
