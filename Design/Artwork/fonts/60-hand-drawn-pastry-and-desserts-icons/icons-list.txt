@@ -1,0 +1,87 @@
+------------------
+60 Hand-Drawn Pastry and Desserts Icons 
+Created by Olly Holovchenko, 2015
+Web: http://handdrawngoods.com
+E-mail: handdrawngoods@gmail.com
+------------------
+
+List of Icons:
+
+
+Row 1
+
+2101-baked-bread
+2102-bread
+2103-bread
+2104-bakery
+2105-sandwich-bread
+2106-sandwich-bread
+2107-pretzel
+2108-pretzel
+2109-croissant
+2110-croissant
+
+Row 2
+
+2201-pierog
+2202-donut
+2203-donut
+2204-donut
+2205-donut
+2206-pie
+2207-pie-slice
+2208-pancakes
+2209-cookie
+2210-gingerbread-man
+
+Row 3
+
+2301-muffin
+2302-muffin
+2303-cupcake
+2304-cupcake
+2305-cupcake
+2306-star-cake
+2307-birthday-muffin
+2308-cake
+2309-cake
+2310-cake-stand
+
+Row 4
+
+2401-cake-stand
+2402-cake
+2403-birthday-cake
+2404-tower-cake
+2405-piece-of-cake
+2406-piece-of-cake
+2407-cake-slice
+2408-cake-slice
+2409-desserts
+2410-cake
+
+Row 5
+
+2501-strawberry-chocolate
+2502-dessert
+2503-ice-cream
+2504-ice-cream
+2505-ice-cream-cone
+2506-ice-cream-cone
+2507-ice-cream
+2508-ice-cream-cone
+2509-popsicle
+2510-popsicle
+
+Row 6
+
+2601-popsicle
+2602-chocolate
+2603-chocolates
+2604-candy
+2605-candy
+2606-candy
+2607-lollipop
+2608-lollipop
+2609-candies
+2610-bread
